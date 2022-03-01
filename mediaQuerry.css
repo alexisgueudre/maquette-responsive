@@ -1,0 +1,97 @@
+@media screen and (max-width: 614px)
+{
+    nav>div>ul>li
+    {
+        float: left!important;
+        width: 27%!important;
+        text-align: center!important;
+        position: relative!important;
+    }
+    .deroulant > a::after {
+        padding-left: 15px;
+        color: white;
+        content: ""!important;
+        font-size: 12px;
+    }
+    nav>ul>li
+    {
+        margin-bottom: 3%!important;
+        border-top: grey solid 1px!important;
+        float: none!important;
+        width: 100%!important;
+        position: initial!important;
+    }
+
+.wrapper2_end_main {
+    grid-auto-rows: minmax(0px, auto)!important;
+    grid-template-columns: repeat(1, 1fr)!important;
+}
+.second_one
+{
+    font-size: 14px;
+    grid-column: 1!important;
+    grid-row: 1!important;
+    padding-left: 15px!important;
+}
+.second_two
+{
+    font-size: 14px;
+    grid-column: 1!important;
+    grid-row: 2!important;
+    padding-left: 15px!important;
+}
+.wrapper {
+    padding-top: 2rem;
+    grid-auto-rows: minmax(0px, auto)!important;
+    grid-template-columns: repeat(1, 1fr)!important;
+}
+.one {
+    grid-column: 1!important;
+    grid-row: 1!important;
+    padding-left: 15px!important;
+}
+.two {
+    grid-column: 1!important;
+    grid-row: 3!important;
+    padding-left: 15px!important;
+}
+.three {
+    grid-column: 1!important;
+    grid-row: 5!important;
+    padding-left: 15px!important;
+}
+.four {
+    padding: 0!important;
+    grid-column: 1!important;
+    grid-row: 2!important;
+}
+.five {
+    padding: 0!important;
+    grid-column: 1!important;
+    grid-row: 4!important;
+}
+.six {
+    padding: 0!important;
+    grid-column: 1!important;
+    grid-row: 6!important;
+}
+.container
+{
+    padding-right: 6rem!important;
+    padding-left: 6rem!important;
+}
+.display_flag
+{
+    display: none!important;
+}
+.border_img
+{
+    width: 100%!important;
+}
+.h1_img
+{
+    font-size: 40px!important;
+    margin-left: 6%;
+}
+
+}

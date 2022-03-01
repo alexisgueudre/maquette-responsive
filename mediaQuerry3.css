@@ -1,0 +1,8 @@
+@media screen and (max-width: 400px)
+{
+    .container
+    {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+}
